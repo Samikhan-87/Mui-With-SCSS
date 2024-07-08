@@ -1,0 +1,74 @@
+// styles/Grid.module.scss
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .gridItem {
+    padding: 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;  
+    margin-top:20px;
+  }
+  
+  .item {
+    background-color: #111927;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: aquamarine;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    background-image: url('/images/Screenshot_2024-07-08_185311-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+  .item1 {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    background-image: url('/images/education-day-arrangement-table-with-copy-space.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .item2 {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    background-image: url('/images/education-day-arrangement-table-with-copy-space.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .item3 {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    background-image: url('/images/education-day-arrangement-table-with-copy-space.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+
+  }

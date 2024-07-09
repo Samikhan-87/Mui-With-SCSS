@@ -15,13 +15,12 @@ const Header = () => {
         <NextLink href="/about" passHref>
           <Button color="inherit">About Us</Button>
         </NextLink>
-        <NextLink href="/learn" passHref>
+        <NextLink href="/LearnCources" passHref>
           <Button color="inherit">Learn Courses</Button>
         </NextLink>
         <NextLink href="/contact" passHref>
           <Button color="inherit">Contact Us</Button>
         </NextLink>
-        <Button className='headerButton' color="inherit">Login</Button>
       </Toolbar>
     </AppBar>
   );

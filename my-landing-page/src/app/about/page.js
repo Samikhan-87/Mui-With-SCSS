@@ -8,7 +8,7 @@ import CustomGrid from '../components/Grid';
 const About = () => {
   return (
     <>
-      <Header />
+      <Header />  
       <div className={aboutStyles.about}>
         <Container>
           <div className={aboutStyles.aboutChild}>
@@ -54,25 +54,15 @@ const About = () => {
                 </ListItem>
               </List>
                <Button variant="contained" color="primary">
-              Search Teachers
+              What's New 
             </Button>
             </Grid>
 
             <Grid container item xs={12} md={6} spacing={3} className={aboutStyles.boxContainer}>
               <Grid item xs={12} sm={6} className={aboutStyles.boxItems1}>
-                <Box>1</Box>
-              </Grid>
-              <Grid item xs={12} sm={6} className={aboutStyles.boxItems2}>
-                <Box>2</Box>
-              </Grid>
-              <Grid item xs={12} sm={6} className={aboutStyles.boxItems3}>
-                <Box>3</Box>
-              </Grid>
-              <Grid item xs={12} sm={6} className={aboutStyles.boxItems4}>
-                <Box>4</Box>
+                <Box></Box>
               </Grid>
             </Grid>
-
           </Grid>
         </div>
       </Container>
@@ -101,15 +91,14 @@ Our own journey means that we have literally walked in your shoes. We know what 
 Nowadays we help business owners, executives and marketing leaders take leverage our years of experience creating highly refined growth solutions. So, if you need a team of experts to develop a winning customer acquisition and growth strategy and carry out your vision, you are in the right place!
             </Typography>
             <Button variant="contained" color="primary">
-              Search Teachers
+              Explore Now!
             </Button>
             <Typography variant="body1" paragraph>
-              You can search teachers here!
+              Explore Our Story here!
             </Typography>
           </div>
         </Container>
       </div>
-
 
       <div className={aboutStyles.about2}>
         <Container>
@@ -124,10 +113,10 @@ Nowadays we help business owners, executives and marketing leaders take leverage
             We work where you work and invest heavily in premium technology that allows us to be more productive in helping you to achieve growth success. If you find it at the top right of the G2 Grid®, we probably know it inside and out!
             </Typography>
             <Button variant="contained" color="primary">
-              Search Teachers
+              Details
             </Button>
             <Typography variant="body1" paragraph>
-              You can search teachers here!
+              You can Get Details of Partners Here!
             </Typography>
           </div>
           <CustomGrid />

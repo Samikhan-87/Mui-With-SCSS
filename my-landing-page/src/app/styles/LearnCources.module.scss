@@ -1,0 +1,208 @@
+.Learn {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  
+    .LearnChild {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+      h2 {
+        text-align: center;
+        color: #e85852;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+      }
+  
+      p {
+        text-align: center;
+        color: white;
+      }
+  
+      .LearnChildButton {
+        border-radius: 20px;
+        background-color: #e85852;
+        padding: 20px 40px;
+        color: white;
+        font-size: 17px;
+        font-weight: bolder;
+        font-family: "Roboto", sans-serif;
+        width: 313px;
+        height: 59px;
+        text-align: center;
+        margin-top: 20px;
+  
+        &:hover {
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+  }
+  
+  .main {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 40px;
+  
+    .mainButton {
+      border-radius: 20px;
+      background-color: #e85852;
+      padding: 20px 40px;
+      color: white;
+      font-size: 17px;
+      font-weight: bolder;
+      font-family: "Roboto", sans-serif;
+      width: 313px;
+      height: 59px;
+      text-align: center;
+      margin-bottom: 40px;
+  
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+  
+    h3 {
+      text-align: center;
+      color: #333;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  
+    h6 {
+      text-align: center;
+      color: #666;
+      font-size: 18px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+  
+    .customList {
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+      padding-left: 20px;
+      list-style-type: disc;
+    }
+  
+    .customListItem {
+      position: relative;
+      margin-bottom: 10px;
+      padding-left: 20px;
+  
+      &::before {
+        content: '•';
+        color: red;
+        position: relative;
+        left: -15px;
+        top: 0;
+        font-size: 1.5rem;
+        line-height: 1.2;
+      }
+    }
+  
+    .MuiListItemText-primary {
+      font-size: 18px;
+      color: #333;
+      align-items: center;
+    }
+    
+    .Cards {
+      margin-left: 60px;
+      margin-top: 40px;
+    }
+  }
+  
+  .main2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+  
+    .mainButton {
+      border-radius: 20px;
+      background-color: #e85852;
+      padding: 20px 40px;
+      color: white;
+      font-size: 17px;
+      font-weight: bolder;
+      font-family: "Roboto", sans-serif;
+      width: 313px;
+      height: 59px;
+      text-align: center;
+      margin-bottom: 40px;
+  
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+  
+    h3 {
+      text-align: center;
+      color: #333;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  
+    h6 {
+      text-align: center;
+      color: #666;
+      font-size: 18px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+  
+    .customList {
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+      padding-left: 20px;
+      list-style-type: disc;
+    }
+  
+    .customListItem {
+      position: relative;
+      margin-bottom: 10px;
+      padding-left: 20px;
+  
+      &::before {
+        content: '•';
+        color: red;
+        position: relative;
+        left: -15px;
+        top: 0;
+        font-size: 1.5rem;
+        line-height: 1.2;
+      }
+    }
+  
+    .MuiListItemText-primary {
+      font-size: 18px;
+      color: #333;
+      align-items: center;
+    }
+    
+    .Cards {
+      margin-left: 60px;
+      margin-top: 40px;
+    }
+  }
+  

@@ -3,34 +3,34 @@ import styles from '../styles/Home.module.scss';
 
   const features = [
     { 
-      title: 'Feature One', 
-      description: 'Experience the ultimate educational setup with a perfectly arranged table, ideal for studying or teaching.',
-      imageUrl: '/images/education-day-arrangement-table-with-copy-space.jpg' 
+      title: 'Web Development', 
+      description: ' Web development is an exciting and dynamic field that offers endless possibilities for creativity and innovation',
+      imageUrl: '/images/1687.jpg' 
     },
     { 
-      title: 'Feature Two', 
-      description: 'Experience the ultimate educational setup with a perfectly arranged table, ideal for studying or teaching.',
-      imageUrl: '/images/education-day-arrangement-table-with-copy-space.jpg'
+      title: 'UI UX Designing', 
+      description: 'UI/UX designing is an exhilarating realm where creativity and innovation converge to redefine digital interactions and elevate user experiences.',
+      imageUrl: '/images/21.jpg'
     },
     { 
-      title: 'Feature Three', 
-      description: 'Experience the ultimate educational setup with a perfectly arranged table, ideal for studying or teaching.',
-      imageUrl: '/images/education-day-arrangement-table-with-copy-space.jpg'
+      title: 'Amazon', 
+      description: 'Amazon VA thrives at the intersection of creativity and innovation, where we redefine digital interactions and elevate user experiences.',
+      imageUrl: '/images/6505894.jpg'
     },
     { 
-      title: 'Feature Four', 
-      description: 'Experience the ultimate educational setup with a perfectly arranged table, ideal for studying or teaching.',
-      imageUrl: '/images/education-day-arrangement-table-with-copy-space.jpg'
+      title: 'Shopify', 
+      description: 'At Shopify, we lead the charge in e-commerce innovation, blending creativity and strategic expertise to enhance online shopping experiences',
+      imageUrl: '/images/10645318.jpg'
     },
     { 
-      title: 'Feature Five', 
-      description: 'Experience the ultimate educational setup with a perfectly arranged table, ideal for studying or teaching.',
-      imageUrl: '/images/education-day-arrangement-table-with-copy-space.jpg'
+      title: 'Graphic Design', 
+      description: 'Enhance your learning environment with a meticulously designed table, perfect for both studying and teaching.',
+      imageUrl: '/images/5817157.jpg'
     },
     { 
-      title: 'Feature Six', 
-      description: 'Experience the ultimate educational setup with a perfectly arranged table, ideal for studying or teaching.',
-      imageUrl: '/images/education-day-arrangement-table-with-copy-space.jpg' 
+      title: 'Artificial Intelligent', 
+      description: 'Transform your educational space with an AI-powered, perfectly arranged table, ideal for studying and teaching.',
+      imageUrl: '/images/211221.jpg' 
     },
   ];
 
@@ -44,6 +44,7 @@ import styles from '../styles/Home.module.scss';
                 <img 
                   src={feature.imageUrl} 
                   className={styles.featureImage} 
+
                 />
                 <Typography variant="h5" gutterBottom>
                   {feature.title}

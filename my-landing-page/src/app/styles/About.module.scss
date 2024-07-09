@@ -3,10 +3,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('/images/education-day-arrangement-table-with-copy-space.jpg');
+    background-image: url('/images/horror-scene-with-eerie-classroom_23-2150975102.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 100%; 
   
     .aboutChild {
       display: flex;
@@ -57,9 +57,9 @@
     h3 {
       text-align: center;
       color: #333;
-      font-size: 24px;
+      font-size: 30px;
       font-weight: bold;
-      margin-top: 40px;
+      margin-top: 20px;
     }
   
     h6 {
@@ -67,6 +67,7 @@
       color: #666;
       font-size: 18px;
       margin-bottom: 20px;
+      margin-top: 10px;
     }
   
     .customList {
@@ -107,13 +108,16 @@
       gap: 20px;
       justify-content: center;
       margin-top: 20px;
+    
 
       .boxItems1 {
         width: 100%;
         height: 300px;
         padding: 31px;
-        background-color: #d3ac1f;
         border-radius: 10px;
+        background-image: url('/images/4758474.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
       }
       .boxItems2 {
         width: 100%;
@@ -167,6 +171,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    margin-top: 20px;
   
     .aboutChild {
       display: flex;
